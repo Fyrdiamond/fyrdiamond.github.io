@@ -1,0 +1,20 @@
+button {
+  background-color: #fff;
+  border: 2px solid #558;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #558;
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: translateY(8px);
+}
