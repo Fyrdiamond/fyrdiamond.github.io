@@ -1,3 +1,9 @@
+/**
+ * Functions to create and modify the sidebar.
+ * createSidebar()   : Finds every header on the current page and places them in the sidebar
+ * setSidebarWidth() : Updates the CSS with the sidebar's width according to the page width
+ */
+
 export function createSidebar() {
   const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
   const sidebar = document.createElement('div');

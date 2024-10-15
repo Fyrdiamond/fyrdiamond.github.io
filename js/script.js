@@ -1,3 +1,10 @@
+/**
+ * Adds functionality to the website
+ * - Creates header and sidebar
+ * - Toggles dark mode with the dark mode button
+ * - Resizes the sidebar when the page size changes
+ */
+
 import { createSidebar, setSidebarWidth } from './sidebar.js';
 
 document.addEventListener('DOMContentLoaded', () => {
