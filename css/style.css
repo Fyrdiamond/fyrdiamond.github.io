@@ -6,10 +6,10 @@ body {
 }
 
 nav {
-  background-color: #99ff99;
+  background-color: #66bb77;
   padding: 10px;
   margin-bottom: 20px;
-  border: 10px solid #17e33c
+  border: 10px solid #14b32f
 }
 
 nav ul {
@@ -43,7 +43,7 @@ p {
 
 .dark-mode {
   background-color: #333;
-  color: #fff;
+  color: #d5d5d5;
 }
 
 .col-3 {
@@ -74,5 +74,6 @@ ul {
 }
 
 .dark-mode .sidebar-content {
-  background-color: #051746;
+  background-color: #102c86;
+  border: 10px solid #051746
 }
